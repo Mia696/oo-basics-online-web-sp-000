@@ -2,22 +2,45 @@
 class Shoe 
   
   def initialize (brand)
-    @brand = Nike
+    @brand = brand
   end
   
   def brand
     @brand
   end
   
-   def author=(author)
-    @author = author
+   def color=(color)
+    @color = color
   end
   
-  def author
-    @author
+  def color
+    @color
   end
   
+  def size=(size)
+    @size = size
+  end
   
+  def size
+    @size
+  end
+  
+  def material=(material)
+    @material = material
+  end
+  
+  def material
+    @material
+  end
+  
+  def condition=(condition)
+    @condition = new
+  end
+  
+  def condition 
+    @condition = 
+  end
+    
   
   end
     
